@@ -132,7 +132,7 @@
                     https://sonarcloud.io/
                 </sonar.host.url>
 		    <sonar.login> 
-			    6c0094c8b5837768ba62458ffc21513d576db1fe
+			    sqp_d94eec22110b504b768e2d4e42f73bf7b6600db4
 		    </sonar.login>
 		    <sonar.organization>mavenjava123</sonar.organization>
             </properties>
