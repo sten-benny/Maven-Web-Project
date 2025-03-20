@@ -6,7 +6,7 @@
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
-  <version>1.0.3-SNAPSHOT</version>
+  <version>1.2.1-SNAPSHOT</version>
   <name>Maven Web Project 17 Feb</name>
   <description>Maven Web Project for Java Project</description>
 
@@ -28,14 +28,13 @@
 <distributionManagement>
      <snapshotRepository>
         <id>nexus-snapshots</id>
-        <url>http://localhost:8081/repository/maven-snapshots/</url>
+        <url>http://localhost:8081/repository/mvn-snapshot/</url>
     </snapshotRepository>
     <repository>
         <id>nexus-releases</id>
-        <url>http://localhost:8081/repository/maven-releases/</url>
+        <url>http://localhost:8081/repository/mvn-releases/</url>
     </repository>
-</distributionManagement>
-	
+</distributionManagement>	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -142,7 +141,7 @@
                     https://sonarcloud.io/
                 </sonar.host.url>
 		    <sonar.login> 
-			    sqp_ddb1569a2b3155a003b129d7947e44268c8aa138
+			    6c0094c8b5837768ba62458ffc21513d576db1fe
 		    </sonar.login>
 		    <sonar.organization>mavenjava123</sonar.organization>
             </properties>
@@ -211,4 +210,4 @@
       </build>
     </profile>
   </profiles>
-</project>
+</project>no
