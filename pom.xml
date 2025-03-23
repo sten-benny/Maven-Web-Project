@@ -140,9 +140,6 @@
                 <sonar.host.url>
                     https://sonarcloud.io/
                 </sonar.host.url>
-		    <sonar.login> 
-			    6c0094c8b5837768ba62458ffc21513d576db1fe
-		    </sonar.login>
 		    <sonar.organization>mavenjava123</sonar.organization>
             </properties>
         </profile>
@@ -210,4 +207,4 @@
       </build>
     </profile>
   </profiles>
-</project>no
+</project>
