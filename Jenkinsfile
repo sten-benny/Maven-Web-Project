@@ -1,12 +1,9 @@
-node('slave2') {
-   
-    stage('checkout') { 
-        git 'https://github.com/praveenkumar1290/Maven-Web-Project.git'
-    }
-    
-    stage('build') {
-        sh 'mvn package'
-    }
-
-}
-  
+pipeline {
+	agent any
+		stages {
+			stage("Git checkout")
+				steps{
+				git 'https://github.com/sten-benny/Maven-Web-Project.git'
+				}
+			}	
+		}		
