@@ -5,6 +5,11 @@ pipeline {
 				steps{
 				git 'https://github.com/sten-benny/Maven-Web-Project.git'
 				}
-			}	
+			}
+			stage("Unit test") {
+				steps{
+				sh 'mvn test'
+				}
+			}
 		}	
 	}		
